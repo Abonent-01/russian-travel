@@ -9,15 +9,15 @@
 @media screen and (max-width: 1279px) {
   .places__place {
     grid-template-columns: 440px 1fr;
-    grid-column-gap: 30px;
-    grid-row-gap: 45px;
+    gap: 48px 32px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .places__place {
     grid-template-columns: 340px 1fr;
-    grid-column-gap: 28px;
+    gap: 48px 28px;
+    margin: 32px 0;
   }
 }
 
@@ -25,5 +25,6 @@
   .places__place {
     grid-template-columns: 1fr;
     grid-row-gap: 24px;
+    margin: 25px 0;
   }
 }
