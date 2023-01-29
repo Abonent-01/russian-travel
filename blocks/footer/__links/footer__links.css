@@ -6,7 +6,7 @@
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-    .footer__link-zone {
+    .footer__links {
       max-width: 928px;
     }
   }
